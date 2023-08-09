@@ -3,6 +3,7 @@ html, body
   margin: 0 auto;
   padding: 0;
   text-align: justify;
+  font-size: 18px;
 }
 
 .titulo
