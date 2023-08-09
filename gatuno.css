@@ -24,7 +24,7 @@ html, body
 {
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
-  border: 1 dashed #cf15bb;
+  border: 1px dashed #cf15bb;
   width: 50%;
   border-radius: 0.2em;
 }
