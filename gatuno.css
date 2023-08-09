@@ -24,7 +24,8 @@ html, body
 {
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
-  border: 1px dashed #cf15bb;
+  border: 2px dotted #cf15bb;
+  font-size: 20px;
   width: 50%;
   border-radius: 0.2em;
 }
