@@ -3,10 +3,16 @@ html, body
   margin: 0 auto;
   padding: 0;
   text-align: justify;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .titulo
 {
   color: #bcff23;
+}
+
+.tierno
+{
+    border-radius: 0.4em;
+    color: #0000ff;
 }
