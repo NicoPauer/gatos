@@ -1,5 +1,6 @@
 html, body
 {
+  /* Apariencia general */
   margin: 0 auto;
   padding: 0;
   text-align: justify;
@@ -8,11 +9,19 @@ html, body
 
 .titulo
 {
+ /* Estilizar ttulos */ 
   color: #bcff23;
 }
 
 .tierno
 {
+  /* Trozos de texto tiernos */
     border-radius: 0.4em;
     color: #0000ff;
+}
+
+.herramientas
+{
+ /* Resaltado de cada herramienta informativa */ 
+  border: 1.9px solid #af23bb;
 }
