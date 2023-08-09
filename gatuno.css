@@ -1,0 +1,11 @@
+html, body
+{
+  margin: 0 auto;
+  padding: 0;
+  text-align: justify;
+}
+
+.titulo
+{
+  color: #bcff23;
+}
