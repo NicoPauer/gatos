@@ -22,6 +22,17 @@ html, body
 
 .herramientas
 {
+ /* Resaltado antes de mostrar todas las herramientas,
+    mensaje informativo */
+  border: 1 dashed #cf15bb;
+  width: 50%;
+  border-radius: 0.2em;
+}
+
+.herramienta
+{
  /* Resaltado de cada herramienta informativa */ 
   border: 1.9px solid #af23bb;
+  text-align: center;
+  border-radius: 0.1em;
 }
