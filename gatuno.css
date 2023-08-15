@@ -28,8 +28,9 @@ html, body
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
   border: 2px dotted #0015bb;
-  padding-left: 1.5;
-  padding-top: 0.5%;
+/* Espaciado de texto */  
+  padding: 1%;
+  inline-height: 0.5%;
   font-size: 20px;
   width: 50%;
   border-radius: 0.2em;
