@@ -2,6 +2,8 @@ html, body
 {
   /* Apariencia general */
   margin: 0 auto;
+ /* Centro todos elementos con unidades relativas */ 
+  margin-left: 15%;
   padding: 0;
   text-align: justify;
   font-size: 19px;
@@ -10,7 +12,7 @@ html, body
 .titulo
 {
  /* Estilizar ttulos */ 
-  color: #bcff23;
+  color: #00ff23;
 }
 
 .tierno
@@ -24,7 +26,7 @@ html, body
 {
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
-  border: 2px dotted #cf15bb;
+  border: 2px dotted #0015bb;
   font-size: 20px;
   width: 50%;
   border-radius: 0.2em;
@@ -33,7 +35,7 @@ html, body
 .herramienta
 {
  /* Resaltado de cada herramienta informativa */ 
-  border: 1.9px solid #af23bb;
+  border: 1.9px solid #0023bb;
   text-align: center;
   border-radius: 0.1em;
 }
