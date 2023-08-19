@@ -11,6 +11,12 @@ html, body
   font-size: 19px;
 }
 
+a
+{
+ /* Le doy estillo personalizado a los enlaces */ 
+  color: #00f77f;
+}
+
 .titulo
 {
  /* Estilizar ttulos */ 
@@ -29,7 +35,7 @@ html, body
 {
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
-  border: 2px dotted #0015bb;
+  border: 4px dotted #0015bb;
 /* Espaciado de texto */  
   padding: 1%;
   inline-height: 0.5%;
