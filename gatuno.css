@@ -1,6 +1,8 @@
 html, body
 {
   /* Apariencia general */
+  background-color: #005f;
+  color: #00ffff;
   margin: 0 auto;
  /* Centro todos elementos con unidades relativas */ 
   margin-left: 15%;
