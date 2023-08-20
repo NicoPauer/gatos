@@ -7,7 +7,7 @@ function obtenerColor(nombre)
      si ya está en hexadecimal lo devuelve sino lo traduce */
    let color = "";
   // Convierto nombre a minuscula
-   let nombre = nombre.toLowerCase();
+   nombre = nombre.toLowerCase();
    if (nombre[0] === "#")
    {
     // Verifico si ya está en hexadecimal
