@@ -3,13 +3,9 @@
 /* Si el color lo puede ver bien muestra imagen info-gatos.svg, sino
    muestra gato-triste.svg */
 
-function analizarColor()
+function analizarColor(valor)
 {
-  // Conviene que sea local esta parte así actualizo el color 
-   const formularioColor = document.querySelector("#texto-colores");
-   let colorIngresado = obtenerColor(formularioColor.value);
-   
-   if (colorGatuno(colorIngresado))
+   if (colorGatuno(valor))
     {
       alert("Si lo vé");
     }
@@ -20,4 +16,4 @@ function analizarColor()
 }
 // Espero evento cambio en el valor de formulario de color
 const formulario = document.querySelector("#texto-colores");
-formulario.addEventListener("change", analizarColor());
+formulario.addEventListener("change", analizarColor(formulario.value));
