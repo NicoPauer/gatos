@@ -5,7 +5,7 @@ html, body
   color: #00ffff;
   margin: 0 auto;
  /* Centro todos elementos con unidades relativas */ 
-  margin-left: 5%;
+  margin-left: 3%;
   padding: 0;
   text-align: justify;
   font-size: 15px;
@@ -20,7 +20,7 @@ a
 .titulo
 {
  /* Estilizar ttulos */ 
-  margin-left: 3%;
+  margin-left: 0.25%;
   color: #00ff23;
 }
 
@@ -36,7 +36,7 @@ a
 {
  /* Resaltado antes de mostrar todas las herramientas,
     mensaje informativo */
-  border: 4px dotted #0015bb;
+  border: 2px dotted #0015bb;
 /* Espaciado de texto */  
   padding: 1%;
   inline-size: 0.5%;
@@ -48,7 +48,7 @@ a
 .herramienta
 {
  /* Resaltado de cada herramienta informativa */ 
-  border: 1.9px solid #0023bb;
+  border: 1.5px solid #0023bb;
   text-align: center;
   border-radius: 0.1em;
 }
