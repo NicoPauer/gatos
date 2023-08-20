@@ -14,7 +14,7 @@ function obtenerColor(nombre)
      switch(nombre[1])
      {
        case "1": color = nombre; break;
-       case "2": color = nombre; break:
+       case "2": color = nombre; break;
        case "3": color = nombre; break;
        case "4": color = nombre; break;  
        case "5": color = nombre; break;
