@@ -19,3 +19,5 @@ function analizarColor()
    }
 }
 // Espero evento cambio en el valor de formulario de color
+const formulario = document.querySelector("#texto-colores");
+formulario.addEventListener("change", analizarColor());
