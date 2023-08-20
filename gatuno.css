@@ -5,10 +5,10 @@ html, body
   color: #00ffff;
   margin: 0 auto;
  /* Centro todos elementos con unidades relativas */ 
-  margin-left: 15%;
+  margin-left: 5%;
   padding: 0;
   text-align: justify;
-  font-size: 19px;
+  font-size: 15px;
 }
 
 a
@@ -20,6 +20,7 @@ a
 .titulo
 {
  /* Estilizar ttulos */ 
+  margin-left: 3%;
   color: #00ff23;
 }
 
