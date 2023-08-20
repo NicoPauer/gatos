@@ -5,7 +5,7 @@ function obtenerColor(nombre)
   /* devuelve el codigo hexadecimal del
      color el nombre del color que recibe como parametro
      si ya está en hexadecimal lo devuelve sino lo traduce */
-   let color = nombre;
+   let color = "#000000";
   // Convierto nombre a minuscula
    let nomb = nombre.toLowerCase();
    if (nomb[0] === "#")
