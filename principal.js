@@ -1,13 +1,12 @@
 // Se encarga de la parte visual y la interacción con los distintos formularios
 
-const formularioColor = document.querySelector("#texto-colores");
-
 /* Si el color lo puede ver bien muestra imagen info-gatos.svg, sino
    muestra gato-triste.svg */
 
 function analizarColor()
 {
   // Conviene que sea local esta parte así actualizo el color 
+   const formularioColor = document.querySelector("#texto-colores");
    let colorIngresado = obtenerColor(formularioColor.value);
    
    if (colorGatuno(colorIngresado))
