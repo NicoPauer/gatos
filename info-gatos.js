@@ -7,34 +7,34 @@ function obtenerColor(nombre)
      si ya está en hexadecimal lo devuelve sino lo traduce */
    let color = "";
   // Convierto nombre a minuscula
-   nombre = nombre.toLowerCase();
-   if (nombre[0] === "#")
+   let nomb = nombre.toLowerCase();
+   if (nomb[0] === "#")
    {
     // Verifico si ya está en hexadecimal
      switch(nombre[1])
      {
-       case "1": color = nombre; break;
-       case "2": color = nombre; break;
-       case "3": color = nombre; break;
-       case "4": color = nombre; break;  
-       case "5": color = nombre; break;
-       case "6": color = nombre; break;
-       case "7": color = nombre; break;
-       case "8": color = nombre; break;
-       case "9": color = nombre; break;
-       case "a": color = nombre; break;
-       case "b": color = nombre; break;    
-       case "c": color = nombre; break;   
-       case "d": color = nombre; break;   
-       case "e": color = nombre; break;  
-       case "f": color = nombre; break;   
+       case "1": color = nomb; break;
+       case "2": color = nomb; break;
+       case "3": color = nomb; break;
+       case "4": color = nomb; break;  
+       case "5": color = nomb; break;
+       case "6": color = nomb; break;
+       case "7": color = nomb; break;
+       case "8": color = nomb; break;
+       case "9": color = nomb; break;
+       case "a": color = nomb; break;
+       case "b": color = nomb; break;    
+       case "c": color = nomb; break;   
+       case "d": color = nomb; break;   
+       case "e": color = nomb; break;  
+       case "f": color = nomb; break;   
      }
    }
    else
    {
      // Si está el nombre de color en vez de código lo traduzco
      traducir = {"amarillo":"#ffff00","yellow":"#ffff00", "rojo":"#ff0000", "red":"#ff0000", "verde":"#00ff00", "green":"#00ff00", "azul":"#0000ff", "blue":"#0000ff", "blanco":"#ffffff", "white":"#ffffff", "negro":"#000000", "black":"#000000"};
-     color = traducir[nombre];
+     color = traducir[nomb];
    }
   // Puede retornar un color o dejarse vacia(sin código)
    return color;
