@@ -40,7 +40,7 @@ function obtenerColor(nombre)
    return color;
 }
 
-colorGatuno(codigoHex)
+function colorGatuno(codigoHex)
 {
   /* A partir de un color en código decimal devuelve cierto tan
      solo si el codigo en bloque de dos digitos rojos es cero:
