@@ -46,5 +46,7 @@ function colorGatuno(codigoHex)
      solo si el codigo en bloque de dos digitos rojos es cero:
       codigoHex de la forma "#rrvvaa" siendo esas letras reemplazadas
       por numeros hexadecimales para que la funcion funcione */
+  // Me aseguro que el color sea un código hexadecimal
+    codigoHex = obtenerColor(codigoHex);
     return ((codigoHex[1] === "0") && (codigoHex[2] === "0"));
 }
