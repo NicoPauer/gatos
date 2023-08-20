@@ -47,6 +47,6 @@ function colorGatuno(codigoHex)
       codigoHex de la forma "#rrvvaa" siendo esas letras reemplazadas
       por numeros hexadecimales para que la funcion funcione */
   // Me aseguro que el color sea un código hexadecimal
-    cod = obtenerColor(codigoHex);
+    let cod = obtenerColor(codigoHex);
     return ((cod[1] === "0") && (cod[2] === "0"));
 }
