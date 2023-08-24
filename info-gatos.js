@@ -30,7 +30,7 @@ function obtenerColor(nombre)
        case "d": color = nomb; break;   
        case "e": color = nomb; break;  
        case "f": color = nomb; break; 
-       default: colot = nomb;  
+       default: color = nomb;  
      }
    }
    else
