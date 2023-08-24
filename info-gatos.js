@@ -13,6 +13,8 @@ function obtenerColor(nombre)
     // Verifico si ya está en hexadecimal
      switch(nombre[1])
      {
+      // Me había olvidado que también podía ser cero   
+       case "0": color = nomb; break;
        case "1": color = nomb; break;
        case "2": color = nomb; break;
        case "3": color = nomb; break;
