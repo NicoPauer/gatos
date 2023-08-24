@@ -17,4 +17,4 @@ function analizarColor(valor)
 // Espero evento cambio en el valor de formulario de color
 const formulario = document.querySelector("#boton-colores");
 const texto = document.querySelector("#texto-colores");
-formulario.addEventListener("click", analizarColor(texto.value));
+formulario.addEventListener("click", window.analizarColor(texto.value));
